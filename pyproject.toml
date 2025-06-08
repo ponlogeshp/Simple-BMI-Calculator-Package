@@ -1,0 +1,11 @@
+[project]
+name = "simplebmi_test"
+version = "1.1"
+authors = [
+  { name="Pon Logesh P", email="ponlogeshvpt@gmail.com" },
+]
+description = "A simple BMI Calculator Module"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]

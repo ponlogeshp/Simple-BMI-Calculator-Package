@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/simplebmi_test/__init__.py
+src/simplebmi_test/simplebmi.py
+src/simplebmi_test.egg-info/PKG-INFO
+src/simplebmi_test.egg-info/SOURCES.txt
+src/simplebmi_test.egg-info/dependency_links.txt
+src/simplebmi_test.egg-info/top_level.txt

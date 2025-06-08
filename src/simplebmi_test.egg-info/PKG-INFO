@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: simplebmi_test
+Version: 1.1
+Summary: A simple BMI Calculator Module
+Author-email: Pon Logesh P <ponlogeshvpt@gmail.com>
+License-Expression: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+This Package has only one fucntion.
+
+generate_bmi_data() - Accepts a Dictionary with Keys "heights" and "weights" in terms of meters and kilograms.
+
+The function returns a bmi_score and bmi_status as a paired standalone return values.
