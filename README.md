@@ -1,5 +1,21 @@
-This Package has only one fucntion.
+**What is SimpleBMI Module**
 
-generate_bmi_data() - Accepts a Dictionary with Keys "heights" and "weights" in terms of meters and kilograms.
+A simple python module used to calcualte the BMI score and BMI Status based on the individual heights and weights.
 
-The function returns a bmi_score and bmi_status as a paired standalone return values.
+**Installation**
+
+```
+python3 -m pip install simplebmi-test --index-url=https://test.pypi.org/simple
+```
+
+
+**Example**
+
+```
+from simplebmi_test import simplebmi
+
+bmi_score, bmi_status = simplebmi.generate_bmi_data({"height": 1.6 , "weight": 53})
+
+print(f"BMI Score : {bmi_score}, BMI Status : {bmi_status}")
+```
+
